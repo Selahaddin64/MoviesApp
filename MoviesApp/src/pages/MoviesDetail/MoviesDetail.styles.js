@@ -8,23 +8,35 @@ export default StyleSheet.create({
     body_container: {
         padding: 10,
     },
-    image: {
-        width: devicesize.width,
-        height: devicesize.height / 3,
-        resizeMode: 'contain',
-        backgroundColor: 'white',
+    bottom_container:{
+        margin: 10,
     },
     title: {
         fontWeight: 'bold',
         fontSize: 25,
     },
-    description: {
+    genre: {
         fontStyle: 'italic',
         marginVertical: 5,
     },
-    price: {
+    director: {
+        fontStyle: 'italic',
+        marginVertical: 5,
+        textAlign: 'right',
+    },
+    rate: {
         fontWeight: 'bold',
         fontSize: 20,
         textAlign: 'right',
+    },
+    brief: {
+        fontWeight: 'bold',
+        fontSize: 15,
+    },
+    cast: {
+        fontStyle: 'italic',
+        marginVertical: 5,
+        marginTop: 10,
+        padding: 5,
     },
 });

@@ -1,4 +1,5 @@
 export default {
-    MOVIES_SCREEN: 'MoviesScreen',
-    MOVIES_DETAİL_SCREEN: 'MoviesDetailScreen',
+  MOVIES_SCREEN: 'MoviesScreen',
+  MOVIES_DETAİL_SCREEN: 'MoviesDetailScreen',
+  Comments: 'Comment',
 }

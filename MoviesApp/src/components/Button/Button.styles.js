@@ -1,8 +1,16 @@
 import {StyleSheet} from 'react-native';
-import spacing from '../../styles/spacing';
-import radius from '../../styles/radius';
 
 export default StyleSheet.create({
-  container: {},
-  text: {},
-})
+  container: {
+    padding: 8,
+    margin: 10,
+    backgroundColor: '#2286c3',
+    borderRadius: 5,
+    alignItems: 'center',
+  },
+  title: {
+    fontWeight: 'bold',
+    fontSize: 13,
+    color: 'white',
+  },
+});
